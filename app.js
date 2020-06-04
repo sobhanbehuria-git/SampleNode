@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Welcome to Dev Env');
+  res.send('Jenkins Deployment to DEV');
 });
 
 app.listen(PORT, HOST);

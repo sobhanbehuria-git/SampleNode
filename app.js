@@ -3,13 +3,13 @@
 const express = require('express');
 
 // Constants
-const PORT = 3000;
+const PORT = 3001;
 const HOST = '0.0.0.0';
 
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Welcome to Prod Env');
+  res.send('Welcome to Dev Env');
 });
 
 app.listen(PORT, HOST);
